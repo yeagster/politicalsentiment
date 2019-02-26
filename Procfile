@@ -1,1 +1,1 @@
-web: gunicorn sentiment_app:app
+web: gunicorn sentiment_app:app --preload --workers 1
